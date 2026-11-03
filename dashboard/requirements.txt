@@ -1,0 +1,5 @@
+streamlit>=1.50,<2
+supabase>=2,<3
+pandas>=2,<3
+altair>=5,<7
+modal>=1,<2

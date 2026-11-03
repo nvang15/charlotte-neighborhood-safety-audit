@@ -1,0 +1,2431 @@
+﻿{
+    "generated_utc":  "2026-11-03T01:04:03.1703447Z",
+    "audit_script":  "audit_sources.ps1",
+    "missingness_definition":  "Empty CSV fields only",
+    "inputs":  [
+                   {
+                       "rows":  880471,
+                       "columns_count":  29,
+                       "columns":  [
+                                       {
+                                           "field":  "X",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  22433,
+                                           "min_numeric":  1384868.00003931,
+                                           "max_numeric":  1535394.99983773,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "Y",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  22923,
+                                           "min_numeric":  465419.000129312,
+                                           "max_numeric":  645111.999994561,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "YEAR",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  10,
+                                           "min_numeric":  2017,
+                                           "max_numeric":  2026,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "INCIDENT_REPORT_ID",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  880471,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "LOCATION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  39777,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "CITY",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  93,
+                                           "min_numeric":  107,
+                                           "max_numeric":  28273,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "STATE",
+                                           "inferred_type":  "string/category",
+                                           "missing":  262,
+                                           "missing_pct":  0.0298,
+                                           "unique_count":  5,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "ZIP",
+                                           "inferred_type":  "string/category",
+                                           "missing":  306381,
+                                           "missing_pct":  34.7974,
+                                           "unique_count":  710,
+                                           "min_numeric":  0,
+                                           "max_numeric":  298203,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "X_COORD_PUBLIC",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  22433,
+                                           "min_numeric":  1384868,
+                                           "max_numeric":  1535395,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "Y_COORD_PUBLIC",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  22923,
+                                           "min_numeric":  465419,
+                                           "max_numeric":  645112,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "LATITUDE_PUBLIC",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  24513,
+                                           "min_numeric":  -80.963592,
+                                           "max_numeric":  35.508584,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "LONGITUDE_PUBLIC",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  24680,
+                                           "min_numeric":  -81.055885,
+                                           "max_numeric":  -80.555399,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "DIVISION_ID",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  25,
+                                           "min_numeric":  0,
+                                           "max_numeric":  92,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "CMPD_PATROL_DIVISION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  18,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "NPA",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  451,
+                                           "min_numeric":  0,
+                                           "max_numeric":  476,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "DATE_REPORTED",
+                                           "inferred_type":  "datetime",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  3590,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  "\/Date(1483246800000)\/",
+                                           "max_date":  "\/Date(1793332800000)\/"
+                                       },
+                                       {
+                                           "field":  "DATE_INCIDENT_BEGAN",
+                                           "inferred_type":  "datetime",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  5116,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  "\/Date(-55853262000000)\/",
+                                           "max_date":  "\/Date(1793332800000)\/"
+                                       },
+                                       {
+                                           "field":  "DATE_INCIDENT_END",
+                                           "inferred_type":  "datetime",
+                                           "missing":  207195,
+                                           "missing_pct":  23.5323,
+                                           "unique_count":  4424,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  "\/Date(-55817496000000)\/",
+                                           "max_date":  "\/Date(1793332800000)\/"
+                                       },
+                                       {
+                                           "field":  "ADDRESS_DESCRIPTION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  3,
+                                           "missing_pct":  0.0003,
+                                           "unique_count":  2,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "LOCATION_TYPE_DESCRIPTION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  5,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "PLACE_TYPE_DESCRIPTION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  5,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "PLACE_DETAIL_DESCRIPTION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  82,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "CLEARANCE_STATUS",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  5,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "CLEARANCE_DETAIL_STATUS",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  12,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "CLEARANCE_DATE",
+                                           "inferred_type":  "datetime",
+                                           "missing":  522198,
+                                           "missing_pct":  59.3089,
+                                           "unique_count":  3598,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  "\/Date(-55792350000000)\/",
+                                           "max_date":  "\/Date(1793332800000)\/"
+                                       },
+                                       {
+                                           "field":  "HIGHEST_NIBRS_CODE",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  72,
+                                           "min_numeric":  100,
+                                           "max_numeric":  899,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "HIGHEST_NIBRS_DESCRIPTION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  72,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "OBJECTID",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  880471,
+                                           "min_numeric":  1,
+                                           "max_numeric":  880471,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "GlobalID",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  880471,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       }
+                                   ],
+                       "key_checks":  [
+                                          {
+                                              "fields":  [
+                                                             "INCIDENT_REPORT_ID"
+                                                         ],
+                                              "duplicate_rows":  0,
+                                              "distinct_nonmissing_keys":  880471,
+                                              "rows_with_missing_key":  0
+                                          },
+                                          {
+                                              "fields":  [
+                                                             "GlobalID"
+                                                         ],
+                                              "duplicate_rows":  0,
+                                              "distinct_nonmissing_keys":  880471,
+                                              "rows_with_missing_key":  0
+                                          },
+                                          {
+                                              "fields":  [
+                                                             "OBJECTID"
+                                                         ],
+                                              "duplicate_rows":  0,
+                                              "distinct_nonmissing_keys":  880471,
+                                              "rows_with_missing_key":  0
+                                          }
+                                      ],
+                       "frequencies":  {
+                                           "YEAR":  [
+                                                        {
+                                                            "value":  "2023",
+                                                            "count":  95525
+                                                        },
+                                                        {
+                                                            "value":  "2024",
+                                                            "count":  92217
+                                                        },
+                                                        {
+                                                            "value":  "2019",
+                                                            "count":  92096
+                                                        },
+                                                        {
+                                                            "value":  "2025",
+                                                            "count":  91226
+                                                        },
+                                                        {
+                                                            "value":  "2022",
+                                                            "count":  89557
+                                                        },
+                                                        {
+                                                            "value":  "2017",
+                                                            "count":  89004
+                                                        },
+                                                        {
+                                                            "value":  "2018",
+                                                            "count":  88395
+                                                        },
+                                                        {
+                                                            "value":  "2021",
+                                                            "count":  84921
+                                                        },
+                                                        {
+                                                            "value":  "2020",
+                                                            "count":  83619
+                                                        },
+                                                        {
+                                                            "value":  "2026",
+                                                            "count":  73911
+                                                        }
+                                                    ],
+                                           "CITY":  [
+                                                        {
+                                                            "value":  "CHARLOTTE",
+                                                            "count":  878658
+                                                        },
+                                                        {
+                                                            "value":  "MECKLENBURG",
+                                                            "count":  596
+                                                        },
+                                                        {
+                                                            "value":  "MATTHEWS",
+                                                            "count":  336
+                                                        },
+                                                        {
+                                                            "value":  "PINEVILLE",
+                                                            "count":  318
+                                                        },
+                                                        {
+                                                            "value":  "HUNTERSVILLE",
+                                                            "count":  200
+                                                        },
+                                                        {
+                                                            "value":  "MINT HILL",
+                                                            "count":  135
+                                                        },
+                                                        {
+                                                            "value":  "CHARLOTE",
+                                                            "count":  34
+                                                        },
+                                                        {
+                                                            "value":  "CORNELIUS",
+                                                            "count":  19
+                                                        },
+                                                        {
+                                                            "value":  "CHARLOTTE - NC",
+                                                            "count":  13
+                                                        },
+                                                        {
+                                                            "value":  "CHARLOTTE, NC",
+                                                            "count":  11
+                                                        },
+                                                        {
+                                                            "value":  "CHARLOTTTE",
+                                                            "count":  10
+                                                        },
+                                                        {
+                                                            "value":  "MIDLAND",
+                                                            "count":  10
+                                                        },
+                                                        {
+                                                            "value":  "DAVIDSON",
+                                                            "count":  8
+                                                        },
+                                                        {
+                                                            "value":  "MATHEWS",
+                                                            "count":  8
+                                                        },
+                                                        {
+                                                            "value":  "CHARLOTTE, NC  28273",
+                                                            "count":  5
+                                                        },
+                                                        {
+                                                            "value":  "CHARLTOTE",
+                                                            "count":  5
+                                                        },
+                                                        {
+                                                            "value":  "CHAROLETTE",
+                                                            "count":  5
+                                                        },
+                                                        {
+                                                            "value":  "CHARLOTTLE",
+                                                            "count":  4
+                                                        },
+                                                        {
+                                                            "value":  "CHAROLTTE",
+                                                            "count":  4
+                                                        },
+                                                        {
+                                                            "value":  "CHARLOTTE,",
+                                                            "count":  3
+                                                        },
+                                                        {
+                                                            "value":  "CHRLOTTE",
+                                                            "count":  3
+                                                        },
+                                                        {
+                                                            "value":  "OTHER/NOT LISTED",
+                                                            "count":  3
+                                                        },
+                                                        {
+                                                            "value":  "110",
+                                                            "count":  2
+                                                        },
+                                                        {
+                                                            "value":  "28226",
+                                                            "count":  2
+                                                        },
+                                                        {
+                                                            "value":  "CAHRLOTTE",
+                                                            "count":  2
+                                                        }
+                                                    ],
+                                           "STATE":  [
+                                                         {
+                                                             "value":  "NC",
+                                                             "count":  880199
+                                                         },
+                                                         {
+                                                             "value":  "",
+                                                             "count":  262
+                                                         },
+                                                         {
+                                                             "value":  "ND",
+                                                             "count":  5
+                                                         },
+                                                         {
+                                                             "value":  "SC",
+                                                             "count":  3
+                                                         },
+                                                         {
+                                                             "value":  "IN",
+                                                             "count":  1
+                                                         },
+                                                         {
+                                                             "value":  "NY",
+                                                             "count":  1
+                                                         }
+                                                     ],
+                                           "CMPD_PATROL_DIVISION":  [
+                                                                        {
+                                                                            "value":  "University City",
+                                                                            "count":  103247
+                                                                        },
+                                                                        {
+                                                                            "value":  "Steele Creek",
+                                                                            "count":  94479
+                                                                        },
+                                                                        {
+                                                                            "value":  "North",
+                                                                            "count":  81276
+                                                                        },
+                                                                        {
+                                                                            "value":  "Westover",
+                                                                            "count":  68741
+                                                                        },
+                                                                        {
+                                                                            "value":  "Metro",
+                                                                            "count":  67592
+                                                                        },
+                                                                        {
+                                                                            "value":  "North Tryon",
+                                                                            "count":  64975
+                                                                        },
+                                                                        {
+                                                                            "value":  "Central",
+                                                                            "count":  63090
+                                                                        },
+                                                                        {
+                                                                            "value":  "Freedom",
+                                                                            "count":  62700
+                                                                        },
+                                                                        {
+                                                                            "value":  "Hickory Grove",
+                                                                            "count":  53938
+                                                                        },
+                                                                        {
+                                                                            "value":  "Eastway",
+                                                                            "count":  53631
+                                                                        },
+                                                                        {
+                                                                            "value":  "Providence",
+                                                                            "count":  53337
+                                                                        },
+                                                                        {
+                                                                            "value":  "Independence",
+                                                                            "count":  50542
+                                                                        },
+                                                                        {
+                                                                            "value":  "South",
+                                                                            "count":  48543
+                                                                        },
+                                                                        {
+                                                                            "value":  "Airport",
+                                                                            "count":  13027
+                                                                        },
+                                                                        {
+                                                                            "value":  "NA",
+                                                                            "count":  773
+                                                                        },
+                                                                        {
+                                                                            "value":  "Huntersville",
+                                                                            "count":  564
+                                                                        },
+                                                                        {
+                                                                            "value":  "Davidson",
+                                                                            "count":  15
+                                                                        },
+                                                                        {
+                                                                            "value":  "Unknown",
+                                                                            "count":  1
+                                                                        }
+                                                                    ],
+                                           "NPA":  [
+                                                       {
+                                                           "value":  "476",
+                                                           "count":  43850
+                                                       },
+                                                       {
+                                                           "value":  "371",
+                                                           "count":  15645
+                                                       },
+                                                       {
+                                                           "value":  "3",
+                                                           "count":  14666
+                                                       },
+                                                       {
+                                                           "value":  "331",
+                                                           "count":  13833
+                                                       },
+                                                       {
+                                                           "value":  "122",
+                                                           "count":  12371
+                                                       },
+                                                       {
+                                                           "value":  "124",
+                                                           "count":  11403
+                                                       },
+                                                       {
+                                                           "value":  "387",
+                                                           "count":  10430
+                                                       },
+                                                       {
+                                                           "value":  "290",
+                                                           "count":  10357
+                                                       },
+                                                       {
+                                                           "value":  "219",
+                                                           "count":  9873
+                                                       },
+                                                       {
+                                                           "value":  "72",
+                                                           "count":  9566
+                                                       },
+                                                       {
+                                                           "value":  "370",
+                                                           "count":  8199
+                                                       },
+                                                       {
+                                                           "value":  "385",
+                                                           "count":  7966
+                                                       },
+                                                       {
+                                                           "value":  "164",
+                                                           "count":  7507
+                                                       },
+                                                       {
+                                                           "value":  "358",
+                                                           "count":  7339
+                                                       },
+                                                       {
+                                                           "value":  "393",
+                                                           "count":  7216
+                                                       },
+                                                       {
+                                                           "value":  "363",
+                                                           "count":  6829
+                                                       },
+                                                       {
+                                                           "value":  "374",
+                                                           "count":  6510
+                                                       },
+                                                       {
+                                                           "value":  "367",
+                                                           "count":  6500
+                                                       },
+                                                       {
+                                                           "value":  "389",
+                                                           "count":  6275
+                                                       },
+                                                       {
+                                                           "value":  "60",
+                                                           "count":  6069
+                                                       },
+                                                       {
+                                                           "value":  "96",
+                                                           "count":  6061
+                                                       },
+                                                       {
+                                                           "value":  "53",
+                                                           "count":  5744
+                                                       },
+                                                       {
+                                                           "value":  "142",
+                                                           "count":  5732
+                                                       },
+                                                       {
+                                                           "value":  "66",
+                                                           "count":  5687
+                                                       },
+                                                       {
+                                                           "value":  "157",
+                                                           "count":  5679
+                                                       }
+                                                   ],
+                                           "CLEARANCE_STATUS":  [
+                                                                    {
+                                                                        "value":  "Open",
+                                                                        "count":  531712
+                                                                    },
+                                                                    {
+                                                                        "value":  "Exceptionally Cleared",
+                                                                        "count":  172813
+                                                                    },
+                                                                    {
+                                                                        "value":  "Cleared by Arrest",
+                                                                        "count":  137027
+                                                                    },
+                                                                    {
+                                                                        "value":  "Unfounded",
+                                                                        "count":  30714
+                                                                    },
+                                                                    {
+                                                                        "value":  "Cleared by Arrest by Another Agency",
+                                                                        "count":  8205
+                                                                    }
+                                                                ],
+                                           "CLEARANCE_DETAIL_STATUS":  [
+                                                                           {
+                                                                               "value":  "Open",
+                                                                               "count":  522179
+                                                                           },
+                                                                           {
+                                                                               "value":  "Cleared by Arrest",
+                                                                               "count":  137027
+                                                                           },
+                                                                           {
+                                                                               "value":  "Cleared by Other Means",
+                                                                               "count":  96130
+                                                                           },
+                                                                           {
+                                                                               "value":  "Victim Chose not to Prosecute",
+                                                                               "count":  51205
+                                                                           },
+                                                                           {
+                                                                               "value":  "Unfounded",
+                                                                               "count":  28144
+                                                                           },
+                                                                           {
+                                                                               "value":  "Located (Missing Persons and Runaways only)",
+                                                                               "count":  23321
+                                                                           },
+                                                                           {
+                                                                               "value":  "Cleared, Pending Arrest Validation",
+                                                                               "count":  9533
+                                                                           },
+                                                                           {
+                                                                               "value":  "Cleared by Arrest by Another Agency",
+                                                                               "count":  8205
+                                                                           },
+                                                                           {
+                                                                               "value":  "Unfounded-Referred to Other Agency",
+                                                                               "count":  2570
+                                                                           },
+                                                                           {
+                                                                               "value":  "Prosecution Declined by DA",
+                                                                               "count":  1649
+                                                                           },
+                                                                           {
+                                                                               "value":  "By Death of Offender",
+                                                                               "count":  487
+                                                                           },
+                                                                           {
+                                                                               "value":  "Extradition Declined",
+                                                                               "count":  21
+                                                                           }
+                                                                       ],
+                                           "HIGHEST_NIBRS_CODE":  [
+                                                                      {
+                                                                          "value":  "23F",
+                                                                          "count":  87101
+                                                                      },
+                                                                      {
+                                                                          "value":  "90Z",
+                                                                          "count":  86025
+                                                                      },
+                                                                      {
+                                                                          "value":  "899",
+                                                                          "count":  84239
+                                                                      },
+                                                                      {
+                                                                          "value":  "13B",
+                                                                          "count":  76825
+                                                                      },
+                                                                      {
+                                                                          "value":  "23H",
+                                                                          "count":  76218
+                                                                      },
+                                                                      {
+                                                                          "value":  "23C",
+                                                                          "count":  53685
+                                                                      },
+                                                                      {
+                                                                          "value":  "290",
+                                                                          "count":  50429
+                                                                      },
+                                                                      {
+                                                                          "value":  "240",
+                                                                          "count":  43925
+                                                                      },
+                                                                      {
+                                                                          "value":  "220",
+                                                                          "count":  40806
+                                                                      },
+                                                                      {
+                                                                          "value":  "35A",
+                                                                          "count":  33464
+                                                                      },
+                                                                      {
+                                                                          "value":  "13C",
+                                                                          "count":  28364
+                                                                      },
+                                                                      {
+                                                                          "value":  "13A",
+                                                                          "count":  26494
+                                                                      },
+                                                                      {
+                                                                          "value":  "800",
+                                                                          "count":  23740
+                                                                      },
+                                                                      {
+                                                                          "value":  "26A",
+                                                                          "count":  16516
+                                                                      },
+                                                                      {
+                                                                          "value":  "120",
+                                                                          "count":  14380
+                                                                      },
+                                                                      {
+                                                                          "value":  "23G",
+                                                                          "count":  14124
+                                                                      },
+                                                                      {
+                                                                          "value":  "26B",
+                                                                          "count":  9737
+                                                                      },
+                                                                      {
+                                                                          "value":  "23D",
+                                                                          "count":  9578
+                                                                      },
+                                                                      {
+                                                                          "value":  "26F",
+                                                                          "count":  9444
+                                                                      },
+                                                                      {
+                                                                          "value":  "802",
+                                                                          "count":  8777
+                                                                      },
+                                                                      {
+                                                                          "value":  "520",
+                                                                          "count":  7693
+                                                                      },
+                                                                      {
+                                                                          "value":  "280",
+                                                                          "count":  6509
+                                                                      },
+                                                                      {
+                                                                          "value":  "90J",
+                                                                          "count":  6343
+                                                                      },
+                                                                      {
+                                                                          "value":  "26C",
+                                                                          "count":  5695
+                                                                      },
+                                                                      {
+                                                                          "value":  "250",
+                                                                          "count":  5205
+                                                                      }
+                                                                  ],
+                                           "HIGHEST_NIBRS_DESCRIPTION":  [
+                                                                             {
+                                                                                 "value":  "Theft From Motor Vehicle",
+                                                                                 "count":  87101
+                                                                             },
+                                                                             {
+                                                                                 "value":  "All Other Offenses",
+                                                                                 "count":  86025
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Other Unlisted Non-Criminal",
+                                                                                 "count":  84239
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Simple Assault",
+                                                                                 "count":  76825
+                                                                             },
+                                                                             {
+                                                                                 "value":  "All Other Thefts",
+                                                                                 "count":  76218
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Shoplifting",
+                                                                                 "count":  53685
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Damage/Vandalism Of Property",
+                                                                                 "count":  50429
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Motor Vehicle Theft",
+                                                                                 "count":  43925
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Burglary/B\u0026E",
+                                                                                 "count":  40806
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Drug/Narcotic Violations",
+                                                                                 "count":  33464
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Intimidation",
+                                                                                 "count":  28364
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Aggravated Assault",
+                                                                                 "count":  26494
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Missing Person",
+                                                                                 "count":  23740
+                                                                             },
+                                                                             {
+                                                                                 "value":  "False Pretenses/Swindle",
+                                                                                 "count":  16516
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Robbery",
+                                                                                 "count":  14380
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Theft of Motor Vehicle Parts from Vehicle",
+                                                                                 "count":  14124
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Credit Card/Teller Fraud",
+                                                                                 "count":  9737
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Theft From Building",
+                                                                                 "count":  9578
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Identity Theft",
+                                                                                 "count":  9444
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Sudden/Natural Death Investigation",
+                                                                                 "count":  8777
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Weapon Law Violations",
+                                                                                 "count":  7693
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Stolen Property Offenses",
+                                                                                 "count":  6509
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Trespass Of Real Property",
+                                                                                 "count":  6343
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Impersonation",
+                                                                                 "count":  5695
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Counterfeiting/Forgery",
+                                                                                 "count":  5205
+                                                                             }
+                                                                         ],
+                                           "LOCATION_TYPE_DESCRIPTION":  [
+                                                                             {
+                                                                                 "value":  "Indoors",
+                                                                                 "count":  386329
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Outdoors",
+                                                                                 "count":  316780
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Parking Lot",
+                                                                                 "count":  136869
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Other",
+                                                                                 "count":  26306
+                                                                             },
+                                                                             {
+                                                                                 "value":  "Parking Deck",
+                                                                                 "count":  14187
+                                                                             }
+                                                                         ],
+                                           "PLACE_TYPE_DESCRIPTION":  [
+                                                                          {
+                                                                              "value":  "Residential",
+                                                                              "count":  411511
+                                                                          },
+                                                                          {
+                                                                              "value":  "Open Area",
+                                                                              "count":  141751
+                                                                          },
+                                                                          {
+                                                                              "value":  "Commercial Place",
+                                                                              "count":  139803
+                                                                          },
+                                                                          {
+                                                                              "value":  "Retail",
+                                                                              "count":  132624
+                                                                          },
+                                                                          {
+                                                                              "value":  "Public/Non-Residential",
+                                                                              "count":  54782
+                                                                          }
+                                                                      ]
+                                       },
+                       "temporal_coverage":  [
+                                                 {
+                                                     "period":  "2017-01",
+                                                     "rows":  7483
+                                                 },
+                                                 {
+                                                     "period":  "2017-02",
+                                                     "rows":  6801
+                                                 },
+                                                 {
+                                                     "period":  "2017-03",
+                                                     "rows":  6921
+                                                 },
+                                                 {
+                                                     "period":  "2017-04",
+                                                     "rows":  7043
+                                                 },
+                                                 {
+                                                     "period":  "2017-05",
+                                                     "rows":  7865
+                                                 },
+                                                 {
+                                                     "period":  "2017-06",
+                                                     "rows":  7686
+                                                 },
+                                                 {
+                                                     "period":  "2017-07",
+                                                     "rows":  7825
+                                                 },
+                                                 {
+                                                     "period":  "2017-08",
+                                                     "rows":  7905
+                                                 },
+                                                 {
+                                                     "period":  "2017-09",
+                                                     "rows":  7273
+                                                 },
+                                                 {
+                                                     "period":  "2017-10",
+                                                     "rows":  7666
+                                                 },
+                                                 {
+                                                     "period":  "2017-11",
+                                                     "rows":  7312
+                                                 },
+                                                 {
+                                                     "period":  "2017-12",
+                                                     "rows":  7224
+                                                 },
+                                                 {
+                                                     "period":  "2018-01",
+                                                     "rows":  7121
+                                                 },
+                                                 {
+                                                     "period":  "2018-02",
+                                                     "rows":  6321
+                                                 },
+                                                 {
+                                                     "period":  "2018-03",
+                                                     "rows":  7023
+                                                 },
+                                                 {
+                                                     "period":  "2018-04",
+                                                     "rows":  6940
+                                                 },
+                                                 {
+                                                     "period":  "2018-05",
+                                                     "rows":  8082
+                                                 },
+                                                 {
+                                                     "period":  "2018-06",
+                                                     "rows":  7717
+                                                 },
+                                                 {
+                                                     "period":  "2018-07",
+                                                     "rows":  7992
+                                                 },
+                                                 {
+                                                     "period":  "2018-08",
+                                                     "rows":  8000
+                                                 },
+                                                 {
+                                                     "period":  "2018-09",
+                                                     "rows":  7441
+                                                 },
+                                                 {
+                                                     "period":  "2018-10",
+                                                     "rows":  7501
+                                                 },
+                                                 {
+                                                     "period":  "2018-11",
+                                                     "rows":  7149
+                                                 },
+                                                 {
+                                                     "period":  "2018-12",
+                                                     "rows":  7108
+                                                 },
+                                                 {
+                                                     "period":  "2019-01",
+                                                     "rows":  7473
+                                                 },
+                                                 {
+                                                     "period":  "2019-02",
+                                                     "rows":  6840
+                                                 },
+                                                 {
+                                                     "period":  "2019-03",
+                                                     "rows":  7546
+                                                 },
+                                                 {
+                                                     "period":  "2019-04",
+                                                     "rows":  7386
+                                                 },
+                                                 {
+                                                     "period":  "2019-05",
+                                                     "rows":  8096
+                                                 },
+                                                 {
+                                                     "period":  "2019-06",
+                                                     "rows":  7579
+                                                 },
+                                                 {
+                                                     "period":  "2019-07",
+                                                     "rows":  8249
+                                                 },
+                                                 {
+                                                     "period":  "2019-08",
+                                                     "rows":  7917
+                                                 },
+                                                 {
+                                                     "period":  "2019-09",
+                                                     "rows":  7846
+                                                 },
+                                                 {
+                                                     "period":  "2019-10",
+                                                     "rows":  8249
+                                                 },
+                                                 {
+                                                     "period":  "2019-11",
+                                                     "rows":  7366
+                                                 },
+                                                 {
+                                                     "period":  "2019-12",
+                                                     "rows":  7549
+                                                 },
+                                                 {
+                                                     "period":  "2020-01",
+                                                     "rows":  7561
+                                                 },
+                                                 {
+                                                     "period":  "2020-02",
+                                                     "rows":  6916
+                                                 },
+                                                 {
+                                                     "period":  "2020-03",
+                                                     "rows":  7062
+                                                 },
+                                                 {
+                                                     "period":  "2020-04",
+                                                     "rows":  5815
+                                                 },
+                                                 {
+                                                     "period":  "2020-05",
+                                                     "rows":  6691
+                                                 },
+                                                 {
+                                                     "period":  "2020-06",
+                                                     "rows":  6680
+                                                 },
+                                                 {
+                                                     "period":  "2020-07",
+                                                     "rows":  7146
+                                                 },
+                                                 {
+                                                     "period":  "2020-08",
+                                                     "rows":  7322
+                                                 },
+                                                 {
+                                                     "period":  "2020-09",
+                                                     "rows":  7017
+                                                 },
+                                                 {
+                                                     "period":  "2020-10",
+                                                     "rows":  7408
+                                                 },
+                                                 {
+                                                     "period":  "2020-11",
+                                                     "rows":  7038
+                                                 },
+                                                 {
+                                                     "period":  "2020-12",
+                                                     "rows":  6963
+                                                 },
+                                                 {
+                                                     "period":  "2021-01",
+                                                     "rows":  6605
+                                                 },
+                                                 {
+                                                     "period":  "2021-02",
+                                                     "rows":  6188
+                                                 },
+                                                 {
+                                                     "period":  "2021-03",
+                                                     "rows":  6839
+                                                 },
+                                                 {
+                                                     "period":  "2021-04",
+                                                     "rows":  6558
+                                                 },
+                                                 {
+                                                     "period":  "2021-05",
+                                                     "rows":  7062
+                                                 },
+                                                 {
+                                                     "period":  "2021-06",
+                                                     "rows":  7422
+                                                 },
+                                                 {
+                                                     "period":  "2021-07",
+                                                     "rows":  7748
+                                                 },
+                                                 {
+                                                     "period":  "2021-08",
+                                                     "rows":  7288
+                                                 },
+                                                 {
+                                                     "period":  "2021-09",
+                                                     "rows":  7261
+                                                 },
+                                                 {
+                                                     "period":  "2021-10",
+                                                     "rows":  7437
+                                                 },
+                                                 {
+                                                     "period":  "2021-11",
+                                                     "rows":  6898
+                                                 },
+                                                 {
+                                                     "period":  "2021-12",
+                                                     "rows":  7615
+                                                 },
+                                                 {
+                                                     "period":  "2022-01",
+                                                     "rows":  6954
+                                                 },
+                                                 {
+                                                     "period":  "2022-02",
+                                                     "rows":  6848
+                                                 },
+                                                 {
+                                                     "period":  "2022-03",
+                                                     "rows":  7441
+                                                 },
+                                                 {
+                                                     "period":  "2022-04",
+                                                     "rows":  7364
+                                                 },
+                                                 {
+                                                     "period":  "2022-05",
+                                                     "rows":  8036
+                                                 },
+                                                 {
+                                                     "period":  "2022-06",
+                                                     "rows":  7708
+                                                 },
+                                                 {
+                                                     "period":  "2022-07",
+                                                     "rows":  7687
+                                                 },
+                                                 {
+                                                     "period":  "2022-08",
+                                                     "rows":  7947
+                                                 },
+                                                 {
+                                                     "period":  "2022-09",
+                                                     "rows":  7543
+                                                 },
+                                                 {
+                                                     "period":  "2022-10",
+                                                     "rows":  7754
+                                                 },
+                                                 {
+                                                     "period":  "2022-11",
+                                                     "rows":  7135
+                                                 },
+                                                 {
+                                                     "period":  "2022-12",
+                                                     "rows":  7140
+                                                 },
+                                                 {
+                                                     "period":  "2023-01",
+                                                     "rows":  7881
+                                                 },
+                                                 {
+                                                     "period":  "2023-02",
+                                                     "rows":  6938
+                                                 },
+                                                 {
+                                                     "period":  "2023-03",
+                                                     "rows":  7629
+                                                 },
+                                                 {
+                                                     "period":  "2023-04",
+                                                     "rows":  7715
+                                                 },
+                                                 {
+                                                     "period":  "2023-05",
+                                                     "rows":  8516
+                                                 },
+                                                 {
+                                                     "period":  "2023-06",
+                                                     "rows":  8183
+                                                 },
+                                                 {
+                                                     "period":  "2023-07",
+                                                     "rows":  8357
+                                                 },
+                                                 {
+                                                     "period":  "2023-08",
+                                                     "rows":  8285
+                                                 },
+                                                 {
+                                                     "period":  "2023-09",
+                                                     "rows":  7942
+                                                 },
+                                                 {
+                                                     "period":  "2023-10",
+                                                     "rows":  8437
+                                                 },
+                                                 {
+                                                     "period":  "2023-11",
+                                                     "rows":  7653
+                                                 },
+                                                 {
+                                                     "period":  "2023-12",
+                                                     "rows":  7989
+                                                 },
+                                                 {
+                                                     "period":  "2024-01",
+                                                     "rows":  7877
+                                                 },
+                                                 {
+                                                     "period":  "2024-02",
+                                                     "rows":  7292
+                                                 },
+                                                 {
+                                                     "period":  "2024-03",
+                                                     "rows":  7400
+                                                 },
+                                                 {
+                                                     "period":  "2024-04",
+                                                     "rows":  7584
+                                                 },
+                                                 {
+                                                     "period":  "2024-05",
+                                                     "rows":  7985
+                                                 },
+                                                 {
+                                                     "period":  "2024-06",
+                                                     "rows":  7884
+                                                 },
+                                                 {
+                                                     "period":  "2024-07",
+                                                     "rows":  7855
+                                                 },
+                                                 {
+                                                     "period":  "2024-08",
+                                                     "rows":  7703
+                                                 },
+                                                 {
+                                                     "period":  "2024-09",
+                                                     "rows":  7957
+                                                 },
+                                                 {
+                                                     "period":  "2024-10",
+                                                     "rows":  8020
+                                                 },
+                                                 {
+                                                     "period":  "2024-11",
+                                                     "rows":  7282
+                                                 },
+                                                 {
+                                                     "period":  "2024-12",
+                                                     "rows":  7378
+                                                 },
+                                                 {
+                                                     "period":  "2025-01",
+                                                     "rows":  7464
+                                                 },
+                                                 {
+                                                     "period":  "2025-02",
+                                                     "rows":  6929
+                                                 },
+                                                 {
+                                                     "period":  "2025-03",
+                                                     "rows":  7758
+                                                 },
+                                                 {
+                                                     "period":  "2025-04",
+                                                     "rows":  7445
+                                                 },
+                                                 {
+                                                     "period":  "2025-05",
+                                                     "rows":  7864
+                                                 },
+                                                 {
+                                                     "period":  "2025-06",
+                                                     "rows":  7761
+                                                 },
+                                                 {
+                                                     "period":  "2025-07",
+                                                     "rows":  8052
+                                                 },
+                                                 {
+                                                     "period":  "2025-08",
+                                                     "rows":  7905
+                                                 },
+                                                 {
+                                                     "period":  "2025-09",
+                                                     "rows":  7829
+                                                 },
+                                                 {
+                                                     "period":  "2025-10",
+                                                     "rows":  7943
+                                                 },
+                                                 {
+                                                     "period":  "2025-11",
+                                                     "rows":  7135
+                                                 },
+                                                 {
+                                                     "period":  "2025-12",
+                                                     "rows":  7141
+                                                 },
+                                                 {
+                                                     "period":  "2026-01",
+                                                     "rows":  6960
+                                                 },
+                                                 {
+                                                     "period":  "2026-02",
+                                                     "rows":  6216
+                                                 },
+                                                 {
+                                                     "period":  "2026-03",
+                                                     "rows":  7415
+                                                 },
+                                                 {
+                                                     "period":  "2026-04",
+                                                     "rows":  7373
+                                                 },
+                                                 {
+                                                     "period":  "2026-05",
+                                                     "rows":  7695
+                                                 },
+                                                 {
+                                                     "period":  "2026-06",
+                                                     "rows":  7678
+                                                 },
+                                                 {
+                                                     "period":  "2026-07",
+                                                     "rows":  7882
+                                                 },
+                                                 {
+                                                     "period":  "2026-08",
+                                                     "rows":  7726
+                                                 },
+                                                 {
+                                                     "period":  "2026-09",
+                                                     "rows":  7587
+                                                 },
+                                                 {
+                                                     "period":  "2026-10",
+                                                     "rows":  7379
+                                                 }
+                                             ],
+                       "file":  "CMPD_Incidents.csv",
+                       "source_path":  "C:\\Users\\noah1\\Desktop\\College\\DTSC 3602 - Predictive Analytics\\Project\\Datasets\\CMPD_Incidents.csv"
+                   },
+                   {
+                       "rows":  80098,
+                       "columns_count":  8,
+                       "columns":  [
+                                       {
+                                           "field":  "ROW_TYPE",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  4,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "GEOGRAPHY",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  429,
+                                           "min_numeric":  0,
+                                           "max_numeric":  476,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "GEOGRAPHY_ID",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  418,
+                                           "min_numeric":  0,
+                                           "max_numeric":  476,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "CALENDAR_YEAR",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  12,
+                                           "min_numeric":  2015,
+                                           "max_numeric":  2026,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "CALENDAR_MONTH",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  12,
+                                           "min_numeric":  1,
+                                           "max_numeric":  12,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "OFFENSE_DESCRIPTION",
+                                           "inferred_type":  "string/category",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  11,
+                                           "min_numeric":  null,
+                                           "max_numeric":  null,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "OFFENSE_COUNT",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  341,
+                                           "min_numeric":  1,
+                                           "max_numeric":  891,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       },
+                                       {
+                                           "field":  "OBJECTID",
+                                           "inferred_type":  "numeric",
+                                           "missing":  0,
+                                           "missing_pct":  0,
+                                           "unique_count":  80098,
+                                           "min_numeric":  1,
+                                           "max_numeric":  80098,
+                                           "min_date":  null,
+                                           "max_date":  null
+                                       }
+                                   ],
+                       "key_checks":  [
+                                          {
+                                              "fields":  [
+                                                             "OBJECTID"
+                                                         ],
+                                              "duplicate_rows":  0,
+                                              "distinct_nonmissing_keys":  80098,
+                                              "rows_with_missing_key":  0
+                                          },
+                                          {
+                                              "fields":  [
+                                                             "ROW_TYPE",
+                                                             "GEOGRAPHY",
+                                                             "GEOGRAPHY_ID",
+                                                             "CALENDAR_YEAR",
+                                                             "CALENDAR_MONTH",
+                                                             "OFFENSE_DESCRIPTION"
+                                                         ],
+                                              "duplicate_rows":  0,
+                                              "distinct_nonmissing_keys":  80098,
+                                              "rows_with_missing_key":  0
+                                          }
+                                      ],
+                       "frequencies":  {
+                                           "ROW_TYPE":  [
+                                                            {
+                                                                "value":  "Neighborhood Profile Area",
+                                                                "count":  68705
+                                                            },
+                                                            {
+                                                                "value":  "Corridor of Opportunity",
+                                                                "count":  6475
+                                                            },
+                                                            {
+                                                                "value":  "Violent Crime Hotspot",
+                                                                "count":  3463
+                                                            },
+                                                            {
+                                                                "value":  "CMPD Jurisdiction",
+                                                                "count":  1455
+                                                            }
+                                                        ],
+                                           "GEOGRAPHY":  [
+                                                             {
+                                                                 "value":  "CMPD",
+                                                                 "count":  1455
+                                                             },
+                                                             {
+                                                                 "value":  "Central/Albemarle",
+                                                                 "count":  1190
+                                                             },
+                                                             {
+                                                                 "value":  "Freedom Drive/Wilkinson",
+                                                                 "count":  1184
+                                                             },
+                                                             {
+                                                                 "value":  "Sugar Creek/I-85",
+                                                                 "count":  1134
+                                                             },
+                                                             {
+                                                                 "value":  "Beatties Ford/Rozzelles Ferry",
+                                                                 "count":  1060
+                                                             },
+                                                             {
+                                                                 "value":  "476",
+                                                                 "count":  1025
+                                                             },
+                                                             {
+                                                                 "value":  "Graham Street/North Tryon",
+                                                                 "count":  1011
+                                                             },
+                                                             {
+                                                                 "value":  "Sugar Creek/I-85 Area",
+                                                                 "count":  1011
+                                                             },
+                                                             {
+                                                                 "value":  "West Boulevard",
+                                                                 "count":  896
+                                                             },
+                                                             {
+                                                                 "value":  "Nations Ford/Arrowood Area",
+                                                                 "count":  889
+                                                             },
+                                                             {
+                                                                 "value":  "Beatties Ford Area",
+                                                                 "count":  819
+                                                             },
+                                                             {
+                                                                 "value":  "371",
+                                                                 "count":  810
+                                                             },
+                                                             {
+                                                                 "value":  "Central/Sharon Amity Area",
+                                                                 "count":  744
+                                                             },
+                                                             {
+                                                                 "value":  "385",
+                                                                 "count":  693
+                                                             },
+                                                             {
+                                                                 "value":  "124",
+                                                                 "count":  630
+                                                             },
+                                                             {
+                                                                 "value":  "374",
+                                                                 "count":  622
+                                                             },
+                                                             {
+                                                                 "value":  "363",
+                                                                 "count":  616
+                                                             },
+                                                             {
+                                                                 "value":  "290",
+                                                                 "count":  603
+                                                             },
+                                                             {
+                                                                 "value":  "53",
+                                                                 "count":  580
+                                                             },
+                                                             {
+                                                                 "value":  "164",
+                                                                 "count":  576
+                                                             },
+                                                             {
+                                                                 "value":  "157",
+                                                                 "count":  560
+                                                             },
+                                                             {
+                                                                 "value":  "370",
+                                                                 "count":  554
+                                                             },
+                                                             {
+                                                                 "value":  "387",
+                                                                 "count":  549
+                                                             },
+                                                             {
+                                                                 "value":  "6",
+                                                                 "count":  543
+                                                             },
+                                                             {
+                                                                 "value":  "219",
+                                                                 "count":  530
+                                                             }
+                                                         ],
+                                           "OFFENSE_DESCRIPTION":  [
+                                                                       {
+                                                                           "value":  "Violent Crime",
+                                                                           "count":  25640
+                                                                       },
+                                                                       {
+                                                                           "value":  "Aggravated Assault-Gun",
+                                                                           "count":  13559
+                                                                       },
+                                                                       {
+                                                                           "value":  "Armed Robbery",
+                                                                           "count":  10343
+                                                                       },
+                                                                       {
+                                                                           "value":  "Aggravated Assault-Other Weapon",
+                                                                           "count":  7098
+                                                                       },
+                                                                       {
+                                                                           "value":  "Aggravated Assault-Knife",
+                                                                           "count":  5977
+                                                                       },
+                                                                       {
+                                                                           "value":  "Strong Arm Robbery",
+                                                                           "count":  5794
+                                                                       },
+                                                                       {
+                                                                           "value":  "Non-Fatal Gunshot Injury",
+                                                                           "count":  4406
+                                                                       },
+                                                                       {
+                                                                           "value":  "Rape",
+                                                                           "count":  3506
+                                                                       },
+                                                                       {
+                                                                           "value":  "Aggravated Assault-Fists,Feet, etc.",
+                                                                           "count":  1924
+                                                                       },
+                                                                       {
+                                                                           "value":  "Homicide",
+                                                                           "count":  1478
+                                                                       },
+                                                                       {
+                                                                           "value":  "Attempted Rape",
+                                                                           "count":  373
+                                                                       }
+                                                                   ],
+                                           "CALENDAR_YEAR":  [
+                                                                 {
+                                                                     "value":  "2020",
+                                                                     "count":  7811
+                                                                 },
+                                                                 {
+                                                                     "value":  "2019",
+                                                                     "count":  7448
+                                                                 },
+                                                                 {
+                                                                     "value":  "2021",
+                                                                     "count":  7387
+                                                                 },
+                                                                 {
+                                                                     "value":  "2022",
+                                                                     "count":  7341
+                                                                 },
+                                                                 {
+                                                                     "value":  "2023",
+                                                                     "count":  7194
+                                                                 },
+                                                                 {
+                                                                     "value":  "2016",
+                                                                     "count":  7160
+                                                                 },
+                                                                 {
+                                                                     "value":  "2017",
+                                                                     "count":  7116
+                                                                 },
+                                                                 {
+                                                                     "value":  "2024",
+                                                                     "count":  7105
+                                                                 },
+                                                                 {
+                                                                     "value":  "2018",
+                                                                     "count":  6963
+                                                                 },
+                                                                 {
+                                                                     "value":  "2015",
+                                                                     "count":  6807
+                                                                 },
+                                                                 {
+                                                                     "value":  "2025",
+                                                                     "count":  6377
+                                                                 },
+                                                                 {
+                                                                     "value":  "2026",
+                                                                     "count":  1389
+                                                                 }
+                                                             ],
+                                           "CALENDAR_MONTH":  [
+                                                                  {
+                                                                      "value":  "07",
+                                                                      "count":  7188
+                                                                  },
+                                                                  {
+                                                                      "value":  "01",
+                                                                      "count":  6866
+                                                                  },
+                                                                  {
+                                                                      "value":  "08",
+                                                                      "count":  6864
+                                                                  },
+                                                                  {
+                                                                      "value":  "06",
+                                                                      "count":  6840
+                                                                  },
+                                                                  {
+                                                                      "value":  "05",
+                                                                      "count":  6831
+                                                                  },
+                                                                  {
+                                                                      "value":  "03",
+                                                                      "count":  6678
+                                                                  },
+                                                                  {
+                                                                      "value":  "10",
+                                                                      "count":  6671
+                                                                  },
+                                                                  {
+                                                                      "value":  "09",
+                                                                      "count":  6602
+                                                                  },
+                                                                  {
+                                                                      "value":  "12",
+                                                                      "count":  6581
+                                                                  },
+                                                                  {
+                                                                      "value":  "11",
+                                                                      "count":  6423
+                                                                  },
+                                                                  {
+                                                                      "value":  "02",
+                                                                      "count":  6407
+                                                                  },
+                                                                  {
+                                                                      "value":  "04",
+                                                                      "count":  6147
+                                                                  }
+                                                              ]
+                                       },
+                       "temporal_coverage":  [
+                                                 {
+                                                     "period":  "2015-01",
+                                                     "rows":  523
+                                                 },
+                                                 {
+                                                     "period":  "2015-02",
+                                                     "rows":  456
+                                                 },
+                                                 {
+                                                     "period":  "2015-03",
+                                                     "rows":  521
+                                                 },
+                                                 {
+                                                     "period":  "2015-04",
+                                                     "rows":  508
+                                                 },
+                                                 {
+                                                     "period":  "2015-05",
+                                                     "rows":  595
+                                                 },
+                                                 {
+                                                     "period":  "2015-06",
+                                                     "rows":  544
+                                                 },
+                                                 {
+                                                     "period":  "2015-07",
+                                                     "rows":  616
+                                                 },
+                                                 {
+                                                     "period":  "2015-08",
+                                                     "rows":  628
+                                                 },
+                                                 {
+                                                     "period":  "2015-09",
+                                                     "rows":  583
+                                                 },
+                                                 {
+                                                     "period":  "2015-10",
+                                                     "rows":  592
+                                                 },
+                                                 {
+                                                     "period":  "2015-11",
+                                                     "rows":  604
+                                                 },
+                                                 {
+                                                     "period":  "2015-12",
+                                                     "rows":  637
+                                                 },
+                                                 {
+                                                     "period":  "2016-01",
+                                                     "rows":  531
+                                                 },
+                                                 {
+                                                     "period":  "2016-02",
+                                                     "rows":  491
+                                                 },
+                                                 {
+                                                     "period":  "2016-03",
+                                                     "rows":  613
+                                                 },
+                                                 {
+                                                     "period":  "2016-04",
+                                                     "rows":  527
+                                                 },
+                                                 {
+                                                     "period":  "2016-05",
+                                                     "rows":  614
+                                                 },
+                                                 {
+                                                     "period":  "2016-06",
+                                                     "rows":  631
+                                                 },
+                                                 {
+                                                     "period":  "2016-07",
+                                                     "rows":  653
+                                                 },
+                                                 {
+                                                     "period":  "2016-08",
+                                                     "rows":  623
+                                                 },
+                                                 {
+                                                     "period":  "2016-09",
+                                                     "rows":  622
+                                                 },
+                                                 {
+                                                     "period":  "2016-10",
+                                                     "rows":  609
+                                                 },
+                                                 {
+                                                     "period":  "2016-11",
+                                                     "rows":  628
+                                                 },
+                                                 {
+                                                     "period":  "2016-12",
+                                                     "rows":  618
+                                                 },
+                                                 {
+                                                     "period":  "2017-01",
+                                                     "rows":  643
+                                                 },
+                                                 {
+                                                     "period":  "2017-02",
+                                                     "rows":  589
+                                                 },
+                                                 {
+                                                     "period":  "2017-03",
+                                                     "rows":  537
+                                                 },
+                                                 {
+                                                     "period":  "2017-04",
+                                                     "rows":  560
+                                                 },
+                                                 {
+                                                     "period":  "2017-05",
+                                                     "rows":  608
+                                                 },
+                                                 {
+                                                     "period":  "2017-06",
+                                                     "rows":  594
+                                                 },
+                                                 {
+                                                     "period":  "2017-07",
+                                                     "rows":  626
+                                                 },
+                                                 {
+                                                     "period":  "2017-08",
+                                                     "rows":  601
+                                                 },
+                                                 {
+                                                     "period":  "2017-09",
+                                                     "rows":  628
+                                                 },
+                                                 {
+                                                     "period":  "2017-10",
+                                                     "rows":  575
+                                                 },
+                                                 {
+                                                     "period":  "2017-11",
+                                                     "rows":  579
+                                                 },
+                                                 {
+                                                     "period":  "2017-12",
+                                                     "rows":  576
+                                                 },
+                                                 {
+                                                     "period":  "2018-01",
+                                                     "rows":  586
+                                                 },
+                                                 {
+                                                     "period":  "2018-02",
+                                                     "rows":  505
+                                                 },
+                                                 {
+                                                     "period":  "2018-03",
+                                                     "rows":  534
+                                                 },
+                                                 {
+                                                     "period":  "2018-04",
+                                                     "rows":  520
+                                                 },
+                                                 {
+                                                     "period":  "2018-05",
+                                                     "rows":  591
+                                                 },
+                                                 {
+                                                     "period":  "2018-06",
+                                                     "rows":  610
+                                                 },
+                                                 {
+                                                     "period":  "2018-07",
+                                                     "rows":  614
+                                                 },
+                                                 {
+                                                     "period":  "2018-08",
+                                                     "rows":  646
+                                                 },
+                                                 {
+                                                     "period":  "2018-09",
+                                                     "rows":  604
+                                                 },
+                                                 {
+                                                     "period":  "2018-10",
+                                                     "rows":  553
+                                                 },
+                                                 {
+                                                     "period":  "2018-11",
+                                                     "rows":  603
+                                                 },
+                                                 {
+                                                     "period":  "2018-12",
+                                                     "rows":  597
+                                                 },
+                                                 {
+                                                     "period":  "2019-01",
+                                                     "rows":  611
+                                                 },
+                                                 {
+                                                     "period":  "2019-02",
+                                                     "rows":  563
+                                                 },
+                                                 {
+                                                     "period":  "2019-03",
+                                                     "rows":  597
+                                                 },
+                                                 {
+                                                     "period":  "2019-04",
+                                                     "rows":  578
+                                                 },
+                                                 {
+                                                     "period":  "2019-05",
+                                                     "rows":  693
+                                                 },
+                                                 {
+                                                     "period":  "2019-06",
+                                                     "rows":  648
+                                                 },
+                                                 {
+                                                     "period":  "2019-07",
+                                                     "rows":  686
+                                                 },
+                                                 {
+                                                     "period":  "2019-08",
+                                                     "rows":  645
+                                                 },
+                                                 {
+                                                     "period":  "2019-09",
+                                                     "rows":  610
+                                                 },
+                                                 {
+                                                     "period":  "2019-10",
+                                                     "rows":  611
+                                                 },
+                                                 {
+                                                     "period":  "2019-11",
+                                                     "rows":  570
+                                                 },
+                                                 {
+                                                     "period":  "2019-12",
+                                                     "rows":  636
+                                                 },
+                                                 {
+                                                     "period":  "2020-01",
+                                                     "rows":  606
+                                                 },
+                                                 {
+                                                     "period":  "2020-02",
+                                                     "rows":  605
+                                                 },
+                                                 {
+                                                     "period":  "2020-03",
+                                                     "rows":  622
+                                                 },
+                                                 {
+                                                     "period":  "2020-04",
+                                                     "rows":  557
+                                                 },
+                                                 {
+                                                     "period":  "2020-05",
+                                                     "rows":  634
+                                                 },
+                                                 {
+                                                     "period":  "2020-06",
+                                                     "rows":  684
+                                                 },
+                                                 {
+                                                     "period":  "2020-07",
+                                                     "rows":  734
+                                                 },
+                                                 {
+                                                     "period":  "2020-08",
+                                                     "rows":  705
+                                                 },
+                                                 {
+                                                     "period":  "2020-09",
+                                                     "rows":  652
+                                                 },
+                                                 {
+                                                     "period":  "2020-10",
+                                                     "rows":  706
+                                                 },
+                                                 {
+                                                     "period":  "2020-11",
+                                                     "rows":  645
+                                                 },
+                                                 {
+                                                     "period":  "2020-12",
+                                                     "rows":  661
+                                                 },
+                                                 {
+                                                     "period":  "2021-01",
+                                                     "rows":  647
+                                                 },
+                                                 {
+                                                     "period":  "2021-02",
+                                                     "rows":  575
+                                                 },
+                                                 {
+                                                     "period":  "2021-03",
+                                                     "rows":  572
+                                                 },
+                                                 {
+                                                     "period":  "2021-04",
+                                                     "rows":  598
+                                                 },
+                                                 {
+                                                     "period":  "2021-05",
+                                                     "rows":  636
+                                                 },
+                                                 {
+                                                     "period":  "2021-06",
+                                                     "rows":  671
+                                                 },
+                                                 {
+                                                     "period":  "2021-07",
+                                                     "rows":  673
+                                                 },
+                                                 {
+                                                     "period":  "2021-08",
+                                                     "rows":  618
+                                                 },
+                                                 {
+                                                     "period":  "2021-09",
+                                                     "rows":  582
+                                                 },
+                                                 {
+                                                     "period":  "2021-10",
+                                                     "rows":  644
+                                                 },
+                                                 {
+                                                     "period":  "2021-11",
+                                                     "rows":  579
+                                                 },
+                                                 {
+                                                     "period":  "2021-12",
+                                                     "rows":  592
+                                                 },
+                                                 {
+                                                     "period":  "2022-01",
+                                                     "rows":  608
+                                                 },
+                                                 {
+                                                     "period":  "2022-02",
+                                                     "rows":  598
+                                                 },
+                                                 {
+                                                     "period":  "2022-03",
+                                                     "rows":  595
+                                                 },
+                                                 {
+                                                     "period":  "2022-04",
+                                                     "rows":  631
+                                                 },
+                                                 {
+                                                     "period":  "2022-05",
+                                                     "rows":  684
+                                                 },
+                                                 {
+                                                     "period":  "2022-06",
+                                                     "rows":  649
+                                                 },
+                                                 {
+                                                     "period":  "2022-07",
+                                                     "rows":  661
+                                                 },
+                                                 {
+                                                     "period":  "2022-08",
+                                                     "rows":  637
+                                                 },
+                                                 {
+                                                     "period":  "2022-09",
+                                                     "rows":  568
+                                                 },
+                                                 {
+                                                     "period":  "2022-10",
+                                                     "rows":  611
+                                                 },
+                                                 {
+                                                     "period":  "2022-11",
+                                                     "rows":  537
+                                                 },
+                                                 {
+                                                     "period":  "2022-12",
+                                                     "rows":  562
+                                                 },
+                                                 {
+                                                     "period":  "2023-01",
+                                                     "rows":  558
+                                                 },
+                                                 {
+                                                     "period":  "2023-02",
+                                                     "rows":  529
+                                                 },
+                                                 {
+                                                     "period":  "2023-03",
+                                                     "rows":  552
+                                                 },
+                                                 {
+                                                     "period":  "2023-04",
+                                                     "rows":  583
+                                                 },
+                                                 {
+                                                     "period":  "2023-05",
+                                                     "rows":  573
+                                                 },
+                                                 {
+                                                     "period":  "2023-06",
+                                                     "rows":  620
+                                                 },
+                                                 {
+                                                     "period":  "2023-07",
+                                                     "rows":  662
+                                                 },
+                                                 {
+                                                     "period":  "2023-08",
+                                                     "rows":  602
+                                                 },
+                                                 {
+                                                     "period":  "2023-09",
+                                                     "rows":  650
+                                                 },
+                                                 {
+                                                     "period":  "2023-10",
+                                                     "rows":  613
+                                                 },
+                                                 {
+                                                     "period":  "2023-11",
+                                                     "rows":  603
+                                                 },
+                                                 {
+                                                     "period":  "2023-12",
+                                                     "rows":  649
+                                                 },
+                                                 {
+                                                     "period":  "2024-01",
+                                                     "rows":  571
+                                                 },
+                                                 {
+                                                     "period":  "2024-02",
+                                                     "rows":  570
+                                                 },
+                                                 {
+                                                     "period":  "2024-03",
+                                                     "rows":  544
+                                                 },
+                                                 {
+                                                     "period":  "2024-04",
+                                                     "rows":  588
+                                                 },
+                                                 {
+                                                     "period":  "2024-05",
+                                                     "rows":  640
+                                                 },
+                                                 {
+                                                     "period":  "2024-06",
+                                                     "rows":  646
+                                                 },
+                                                 {
+                                                     "period":  "2024-07",
+                                                     "rows":  659
+                                                 },
+                                                 {
+                                                     "period":  "2024-08",
+                                                     "rows":  592
+                                                 },
+                                                 {
+                                                     "period":  "2024-09",
+                                                     "rows":  583
+                                                 },
+                                                 {
+                                                     "period":  "2024-10",
+                                                     "rows":  575
+                                                 },
+                                                 {
+                                                     "period":  "2024-11",
+                                                     "rows":  572
+                                                 },
+                                                 {
+                                                     "period":  "2024-12",
+                                                     "rows":  565
+                                                 },
+                                                 {
+                                                     "period":  "2025-01",
+                                                     "rows":  523
+                                                 },
+                                                 {
+                                                     "period":  "2025-02",
+                                                     "rows":  471
+                                                 },
+                                                 {
+                                                     "period":  "2025-03",
+                                                     "rows":  516
+                                                 },
+                                                 {
+                                                     "period":  "2025-04",
+                                                     "rows":  497
+                                                 },
+                                                 {
+                                                     "period":  "2025-05",
+                                                     "rows":  563
+                                                 },
+                                                 {
+                                                     "period":  "2025-06",
+                                                     "rows":  543
+                                                 },
+                                                 {
+                                                     "period":  "2025-07",
+                                                     "rows":  604
+                                                 },
+                                                 {
+                                                     "period":  "2025-08",
+                                                     "rows":  567
+                                                 },
+                                                 {
+                                                     "period":  "2025-09",
+                                                     "rows":  520
+                                                 },
+                                                 {
+                                                     "period":  "2025-10",
+                                                     "rows":  582
+                                                 },
+                                                 {
+                                                     "period":  "2025-11",
+                                                     "rows":  503
+                                                 },
+                                                 {
+                                                     "period":  "2025-12",
+                                                     "rows":  488
+                                                 },
+                                                 {
+                                                     "period":  "2026-01",
+                                                     "rows":  459
+                                                 },
+                                                 {
+                                                     "period":  "2026-02",
+                                                     "rows":  455
+                                                 },
+                                                 {
+                                                     "period":  "2026-03",
+                                                     "rows":  475
+                                                 }
+                                             ],
+                       "file":  "Violent_Crime_Data.csv",
+                       "source_path":  "C:\\Users\\noah1\\Desktop\\College\\DTSC 3602 - Predictive Analytics\\Project\\Datasets\\Violent_Crime_Data.csv"
+                   }
+               ]
+}

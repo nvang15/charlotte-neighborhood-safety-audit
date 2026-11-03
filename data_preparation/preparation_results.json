@@ -1,0 +1,55 @@
+﻿{
+    "generated_utc":  "2026-11-03T01:02:27.1777561Z",
+    "raw_sha256":  {
+                       "CMPD":  "527CEBC4C39CA1843B3FA4DC03E68494B3D5F7610303C708B76048228A2EDB24",
+                       "Violent":  "9310928EB478FE106B4A12359AB96C0E7BC2B80D8652FFF8210805748E12B3D1"
+                   },
+    "cmpd_metrics":  {
+                         "raw_rows":  880471,
+                         "output_rows":  880471,
+                         "noncriminal_highest_flagged":  84239,
+                         "year_began_mismatch":  22859,
+                         "unfounded_flagged":  30714,
+                         "unfounded_and_noncriminal_overlap":  7758,
+                         "implausible_incident_began_year":  63,
+                         "implausible_clearance_year":  4,
+                         "npa_not_positive_numeric":  24,
+                         "end_before_begin":  9,
+                         "implausible_incident_end_year":  9,
+                         "distinct_incident_ids":  880471,
+                         "distinct_nibrs_codes":  72
+                     },
+    "violent_metrics":  {
+                            "raw_rows":  80098,
+                            "non_npa_rows_excluded":  11393,
+                            "specific_category_rows":  44550,
+                            "output_rows":  68705,
+                            "broad_category_rows":  24155,
+                            "groups_with_broad_and_specific":  24155,
+                            "broad_less_than_specific_sum":  3262,
+                            "broad_equals_specific_without_gunshot_injury":  24155,
+                            "broad_equals_specific_sum":  20893,
+                            "distinct_npa_ids":  418,
+                            "distinct_npa_month_groups":  24160
+                        },
+    "validation_checks":  {
+                              "cmpd_duplicate_or_missing_incident_id":  0,
+                              "cmpd_unexpected_clearance_status":  0,
+                              "cmpd_unexpected_year":  0,
+                              "cmpd_nibrs_code_description_conflict":  0,
+                              "cmpd_invalid_or_missing_report_date":  0,
+                              "cmpd_invalid_or_missing_incident_began":  0,
+                              "cmpd_year_report_mismatch":  0,
+                              "cmpd_year_began_mismatch":  22859,
+                              "violent_duplicate_npa_group_key":  0,
+                              "violent_invalid_count":  0,
+                              "violent_invalid_month":  0,
+                              "violent_unexpected_year":  0,
+                              "violent_unexpected_row_type":  0,
+                              "violent_unexpected_offense_category":  0
+                          },
+    "hard_failures":  [
+
+                      ],
+    "comparison_table_created":  false
+}

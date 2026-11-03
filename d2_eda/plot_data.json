@@ -1,0 +1,84 @@
+﻿{
+    "cmpd_report_date_range":  [
+                                   "2017-01-01",
+                                   "2026-10-30"
+                               ],
+    "violent_npa_period_range":  [
+                                     "2015-01",
+                                     "2026-03"
+                                 ],
+    "cmpd_year_rows":  {
+                           "2017":  89004,
+                           "2018":  88395,
+                           "2019":  92096,
+                           "2020":  83619,
+                           "2021":  84921,
+                           "2022":  89557,
+                           "2023":  95525,
+                           "2024":  92217,
+                           "2025":  91226,
+                           "2026":  73911
+                       },
+    "violent_npa_year_rows":  {
+                                  "2015":  5799,
+                                  "2016":  6123,
+                                  "2017":  6076,
+                                  "2018":  5948,
+                                  "2019":  6438,
+                                  "2020":  6765,
+                                  "2021":  6335,
+                                  "2022":  6329,
+                                  "2023":  6186,
+                                  "2024":  6124,
+                                  "2025":  5414,
+                                  "2026":  1168
+                              },
+    "cmpd_npa_rank_summary":  {
+                                  "2023":  {
+                                               "observed_npas":  416,
+                                               "total_records":  95523,
+                                               "top_decile_share_pct":  39.3,
+                                               "median_npa_records":  155,
+                                               "max_npa_records":  4947,
+                                               "min_npa_records":  1
+                                           },
+                                  "2024":  {
+                                               "observed_npas":  420,
+                                               "total_records":  92216,
+                                               "top_decile_share_pct":  39.6,
+                                               "median_npa_records":  148,
+                                               "max_npa_records":  4884,
+                                               "min_npa_records":  1
+                                           },
+                                  "2025":  {
+                                               "observed_npas":  416,
+                                               "total_records":  91226,
+                                               "top_decile_share_pct":  41,
+                                               "median_npa_records":  144,
+                                               "max_npa_records":  5161,
+                                               "min_npa_records":  1
+                                           }
+                              },
+    "cmpd_npa_rows_excluded_for_rank":  3,
+    "violent_named_offense_year_totals":  {
+                                              "2015":  5946,
+                                              "2016":  6555,
+                                              "2017":  6318,
+                                              "2018":  6163,
+                                              "2019":  6914,
+                                              "2020":  8043,
+                                              "2021":  7552,
+                                              "2022":  7164,
+                                              "2023":  7178,
+                                              "2024":  7398,
+                                              "2025":  5824
+                                          },
+    "cmpd_missing_pct":  {
+                             "ZIP":  34.7974,
+                             "Incident end date":  23.5323,
+                             "Clearance date":  59.3089,
+                             "State":  0.0298,
+                             "Incident start date":  0,
+                             "Report date":  0
+                         }
+}

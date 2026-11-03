@@ -1,0 +1,32 @@
+# Raw and large derived data
+Datasets/
+data_preparation/cmpd_incidents_clean.csv
+data_preparation/violent_crime_npa_clean.csv
+
+# Python environments and caches
+**/.venv/
+**/.venv-*/
+**/__pycache__/
+*.py[cod]
+
+# Credentials and local configuration
+**/.env
+**/.env.*
+!**/.env.example
+**/.streamlit/secrets.toml
+
+# Browser profiles and visual-QA working files
+d2_eda/edge_*profile*/
+d2_eda/qa/
+d2_eda/preview_page*.png
+d2_eda/D2_data_note_print.html
+
+# Local handoff and course materials
+SESSION_HANDOFF.md
+DTSC 3602 Project.pdf
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
