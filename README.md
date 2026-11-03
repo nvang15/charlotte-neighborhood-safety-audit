@@ -11,7 +11,7 @@ The project reports descriptive counts. It does not create safety grades, label 
 - [Source-audit code and report](source_audit/)
 - [Exploratory plots and interpretations](d2_eda/D2_EDA_report.md)
 - [Supabase-backed Streamlit dashboard](dashboard/)
-- Live Modal dashboard: add the deployed URL before submission
+- Live Modal dashboard: https://nvang15--charlotte-d2-descriptive-dashboard-serve.us-east.modal.run
 
 ## Data access
 
