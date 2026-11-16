@@ -30,3 +30,7 @@ DTSC 3602 Project.pdf
 Thumbs.db
 .vscode/
 .idea/
+
+.venv/
+d3_modeling/data/_cache_*.csv
+__pycache__/
