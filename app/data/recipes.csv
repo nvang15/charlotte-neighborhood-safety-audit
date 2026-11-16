@@ -1,0 +1,85 @@
+recipe_id,denominator,offenses,unfounded,window,smoothing,spearman_vs_2025_reliable_rate,top10_overlap_with_2025_reliable_top10
+R00,none,all offenses,keep unfounded,1 year,raw,0.8674340134112363,0.4
+R01,none,all offenses,keep unfounded,3 years,raw,0.8605242990844367,0.4
+R02,none,all offenses,drop unfounded,1 year,raw,0.8675884892215275,0.37777777777777777
+R03,none,all offenses,drop unfounded,3 years,raw,0.8607864064778927,0.4
+R04,none,excluding enforcement-driven,keep unfounded,1 year,raw,0.867336575168545,0.37777777777777777
+R05,none,excluding enforcement-driven,keep unfounded,3 years,raw,0.8588093372031311,0.4
+R06,none,excluding enforcement-driven,drop unfounded,1 year,raw,0.8677681484925533,0.37777777777777777
+R07,none,excluding enforcement-driven,drop unfounded,3 years,raw,0.8596598165644649,0.4
+R08,none,reliably-reported only,keep unfounded,1 year,raw,0.8891067442829366,0.4444444444444444
+R09,none,reliably-reported only,keep unfounded,3 years,raw,0.8896697168444132,0.4444444444444444
+R10,none,reliably-reported only,drop unfounded,1 year,raw,0.8882838261668362,0.4444444444444444
+R11,none,reliably-reported only,drop unfounded,3 years,raw,0.8890666522468125,0.4222222222222222
+R12,residents,all offenses,keep unfounded,1 year,raw,0.9313384387044304,0.6222222222222222
+R13,residents,all offenses,keep unfounded,1 year,shrunk toward city rate,0.8882955071446395,0.6
+R14,residents,all offenses,keep unfounded,3 years,raw,0.9276806343624994,0.6222222222222222
+R15,residents,all offenses,keep unfounded,3 years,shrunk toward city rate,0.8861306816499778,0.6222222222222222
+R16,residents,all offenses,drop unfounded,1 year,raw,0.9316902326068031,0.6222222222222222
+R17,residents,all offenses,drop unfounded,1 year,shrunk toward city rate,0.8881671703477495,0.6
+R18,residents,all offenses,drop unfounded,3 years,raw,0.9280689070374554,0.6222222222222222
+R19,residents,all offenses,drop unfounded,3 years,shrunk toward city rate,0.8857931338587635,0.6222222222222222
+R20,residents,excluding enforcement-driven,keep unfounded,1 year,raw,0.9347775948101313,0.6444444444444445
+R21,residents,excluding enforcement-driven,keep unfounded,1 year,shrunk toward city rate,0.8925955021031979,0.6
+R22,residents,excluding enforcement-driven,keep unfounded,3 years,raw,0.9305732155017532,0.6666666666666666
+R23,residents,excluding enforcement-driven,keep unfounded,3 years,shrunk toward city rate,0.8901669451384393,0.6
+R24,residents,excluding enforcement-driven,drop unfounded,1 year,raw,0.9344419841993438,0.6222222222222222
+R25,residents,excluding enforcement-driven,drop unfounded,1 year,shrunk toward city rate,0.8922555585191052,0.6
+R26,residents,excluding enforcement-driven,drop unfounded,3 years,raw,0.9303786106569852,0.6444444444444445
+R27,residents,excluding enforcement-driven,drop unfounded,3 years,shrunk toward city rate,0.889865981751989,0.6
+R28,residents,reliably-reported only,keep unfounded,1 year,raw,0.9443251312719756,0.7333333333333333
+R29,residents,reliably-reported only,keep unfounded,1 year,shrunk toward city rate,0.889977742252207,0.6666666666666666
+R30,residents,reliably-reported only,keep unfounded,3 years,raw,0.9471373447243733,0.6888888888888889
+R31,residents,reliably-reported only,keep unfounded,3 years,shrunk toward city rate,0.8962850231358848,0.6666666666666666
+R32,residents,reliably-reported only,drop unfounded,1 year,raw,0.9432406867301923,0.7111111111111111
+R33,residents,reliably-reported only,drop unfounded,1 year,shrunk toward city rate,0.887079674634447,0.6666666666666666
+R34,residents,reliably-reported only,drop unfounded,3 years,raw,0.9472946840482255,0.6888888888888889
+R35,residents,reliably-reported only,drop unfounded,3 years,shrunk toward city rate,0.8950386928298625,0.6666666666666666
+R36,residents + jobs,all offenses,keep unfounded,1 year,raw,0.8684354088745195,0.4444444444444444
+R37,residents + jobs,all offenses,keep unfounded,1 year,shrunk toward city rate,0.8066661169440416,0.4666666666666667
+R38,residents + jobs,all offenses,keep unfounded,3 years,raw,0.8605786317730549,0.4222222222222222
+R39,residents + jobs,all offenses,keep unfounded,3 years,shrunk toward city rate,0.8038801335822938,0.4444444444444444
+R40,residents + jobs,all offenses,drop unfounded,1 year,raw,0.86910492494429,0.4444444444444444
+R41,residents + jobs,all offenses,drop unfounded,1 year,shrunk toward city rate,0.8065260601873954,0.4666666666666667
+R42,residents + jobs,all offenses,drop unfounded,3 years,raw,0.8606454703719799,0.4222222222222222
+R43,residents + jobs,all offenses,drop unfounded,3 years,shrunk toward city rate,0.8035719828172088,0.4444444444444444
+R44,residents + jobs,excluding enforcement-driven,keep unfounded,1 year,raw,0.8729808249022516,0.4444444444444444
+R45,residents + jobs,excluding enforcement-driven,keep unfounded,1 year,shrunk toward city rate,0.8128442192657641,0.4444444444444444
+R46,residents + jobs,excluding enforcement-driven,keep unfounded,3 years,raw,0.8647058195393303,0.4666666666666667
+R47,residents + jobs,excluding enforcement-driven,keep unfounded,3 years,shrunk toward city rate,0.8089836904224889,0.4444444444444444
+R48,residents + jobs,excluding enforcement-driven,drop unfounded,1 year,raw,0.8728605470251013,0.4444444444444444
+R49,residents + jobs,excluding enforcement-driven,drop unfounded,1 year,shrunk toward city rate,0.8128105486631493,0.4444444444444444
+R50,residents + jobs,excluding enforcement-driven,drop unfounded,3 years,raw,0.8652927261402057,0.4444444444444444
+R51,residents + jobs,excluding enforcement-driven,drop unfounded,3 years,shrunk toward city rate,0.808729153616952,0.4444444444444444
+R52,residents + jobs,reliably-reported only,keep unfounded,1 year,raw,0.8803601241318935,0.4222222222222222
+R53,residents + jobs,reliably-reported only,keep unfounded,1 year,shrunk toward city rate,0.8022774128978246,0.4666666666666667
+R54,residents + jobs,reliably-reported only,keep unfounded,3 years,raw,0.8791387203788638,0.4
+R55,residents + jobs,reliably-reported only,keep unfounded,3 years,shrunk toward city rate,0.8067898500699673,0.4888888888888889
+R56,residents + jobs,reliably-reported only,drop unfounded,1 year,raw,0.8799836192973394,0.4222222222222222
+R57,residents + jobs,reliably-reported only,drop unfounded,1 year,shrunk toward city rate,0.7995803976283709,0.4666666666666667
+R58,residents + jobs,reliably-reported only,drop unfounded,3 years,raw,0.8784048678961909,0.37777777777777777
+R59,residents + jobs,reliably-reported only,drop unfounded,3 years,shrunk toward city rate,0.804225509842291,0.5111111111111111
+R60,residents + half of jobs,all offenses,keep unfounded,1 year,raw,0.900440038893942,0.5111111111111111
+R61,residents + half of jobs,all offenses,keep unfounded,1 year,shrunk toward city rate,0.8578109853021719,0.5111111111111111
+R62,residents + half of jobs,all offenses,keep unfounded,3 years,raw,0.8952841209022108,0.4888888888888889
+R63,residents + half of jobs,all offenses,keep unfounded,3 years,shrunk toward city rate,0.8533463281465948,0.5555555555555556
+R64,residents + half of jobs,all offenses,drop unfounded,1 year,raw,0.9006820032108842,0.4888888888888889
+R65,residents + half of jobs,all offenses,drop unfounded,1 year,shrunk toward city rate,0.8571055490869253,0.5111111111111111
+R66,residents + half of jobs,all offenses,drop unfounded,3 years,raw,0.8950833460410992,0.4888888888888889
+R67,residents + half of jobs,all offenses,drop unfounded,3 years,shrunk toward city rate,0.8529679871252893,0.5555555555555556
+R68,residents + half of jobs,excluding enforcement-driven,keep unfounded,1 year,raw,0.9051856151266376,0.5555555555555556
+R69,residents + half of jobs,excluding enforcement-driven,keep unfounded,1 year,shrunk toward city rate,0.863898824508423,0.4888888888888889
+R70,residents + half of jobs,excluding enforcement-driven,keep unfounded,3 years,raw,0.8991127181757098,0.4888888888888889
+R71,residents + half of jobs,excluding enforcement-driven,keep unfounded,3 years,shrunk toward city rate,0.8587634100980617,0.5333333333333333
+R72,residents + half of jobs,excluding enforcement-driven,drop unfounded,1 year,raw,0.9049080560809594,0.5555555555555556
+R73,residents + half of jobs,excluding enforcement-driven,drop unfounded,1 year,shrunk toward city rate,0.8628005153515884,0.4888888888888889
+R74,residents + half of jobs,excluding enforcement-driven,drop unfounded,3 years,raw,0.8989945650851613,0.4888888888888889
+R75,residents + half of jobs,excluding enforcement-driven,drop unfounded,3 years,shrunk toward city rate,0.8578342309682081,0.5333333333333333
+R76,residents + half of jobs,reliably-reported only,keep unfounded,1 year,raw,0.9108148420426253,0.5777777777777777
+R77,residents + half of jobs,reliably-reported only,keep unfounded,1 year,shrunk toward city rate,0.8437453500644321,0.5555555555555556
+R78,residents + half of jobs,reliably-reported only,keep unfounded,3 years,raw,0.911519474478181,0.5555555555555556
+R79,residents + half of jobs,reliably-reported only,keep unfounded,3 years,shrunk toward city rate,0.8526358784314204,0.5777777777777777
+R80,residents + half of jobs,reliably-reported only,drop unfounded,1 year,raw,0.9102991771936858,0.5777777777777777
+R81,residents + half of jobs,reliably-reported only,drop unfounded,1 year,shrunk toward city rate,0.8412411637461075,0.5333333333333333
+R82,residents + half of jobs,reliably-reported only,drop unfounded,3 years,raw,0.9107986930262695,0.5333333333333333
+R83,residents + half of jobs,reliably-reported only,drop unfounded,3 years,shrunk toward city rate,0.8515174316641757,0.5777777777777777
