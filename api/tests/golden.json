@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "label": "illustrative",
+      "input": {
+        "reliable": 180,
+        "property_other": 520,
+        "violent_other": 160,
+        "discretionary": 90,
+        "population": 9500,
+        "jobs": 4200,
+        "area_acres": 1300,
+        "reliable_prev": 160
+      },
+      "predicted_rate_per_1000": 18.465
+    },
+    {
+      "label": "NPA 138 latest inputs",
+      "input": {
+        "reliable": 46,
+        "property_other": 98,
+        "violent_other": 82,
+        "discretionary": 194,
+        "population": 779.0,
+        "jobs": 2343.0,
+        "area_acres": 5476.173905766734,
+        "reliable_prev": 44
+      },
+      "predicted_rate_per_1000": 66.401
+    },
+    {
+      "label": "NPA 21 latest inputs",
+      "input": {
+        "reliable": 99,
+        "property_other": 243,
+        "violent_other": 96,
+        "discretionary": 138,
+        "population": 2858.0,
+        "jobs": 2912.0,
+        "area_acres": 9817.611908212008,
+        "reliable_prev": 102
+      },
+      "predicted_rate_per_1000": 32.863
+    },
+    {
+      "label": "NPA 392 latest inputs",
+      "input": {
+        "reliable": 18,
+        "property_other": 126,
+        "violent_other": 21,
+        "discretionary": 29,
+        "population": 9751.0,
+        "jobs": 5166.0,
+        "area_acres": 15838.07114143614,
+        "reliable_prev": 20
+      },
+      "predicted_rate_per_1000": 1.996
+    },
+    {
+      "label": "NPA 315 latest inputs",
+      "input": {
+        "reliable": 30,
+        "property_other": 112,
+        "violent_other": 23,
+        "discretionary": 61,
+        "population": 1764.0,
+        "jobs": 1129.0,
+        "area_acres": 2588.2644220001744,
+        "reliable_prev": 38
+      },
+      "predicted_rate_per_1000": 16.68
+    }
+  ]
+}

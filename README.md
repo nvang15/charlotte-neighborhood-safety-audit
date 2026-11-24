@@ -13,6 +13,13 @@ The project reports descriptive counts. It does not create safety grades, label 
 - [Supabase-backed Streamlit dashboard](dashboard/)
 - Live Modal dashboard: https://nvang15--charlotte-d2-descriptive-dashboard-serve.us-east.modal.run
 
+## D4 deliverables
+
+- [Fitted pipeline, custom transformer, FastAPI service, and rebuild instructions](api/README.md)
+- Live Modal API: https://jconrad8--charlotte-npa-crime-rate-api-serve.us-east.modal.run
+- API docs: https://jconrad8--charlotte-npa-crime-rate-api-serve.us-east.modal.run/docs
+- [Local vs deployed output check](api/verify_deployed.json)
+
 ## Data access
 
 The raw and cleaned incident-level CSV files are excluded from Git because they are large and may contain location-level fields. To reproduce preparation, obtain the project source files and place them at:

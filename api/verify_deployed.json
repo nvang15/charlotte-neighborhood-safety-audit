@@ -1,0 +1,66 @@
+{
+  "api_url": "https://jconrad8--charlotte-npa-crime-rate-api-serve.us-east.modal.run",
+  "docs_url": "https://jconrad8--charlotte-npa-crime-rate-api-serve.us-east.modal.run/docs",
+  "checked_at_utc": "2026-11-24T03:20:11+00:00",
+  "local_model_sha256": "cb1d83b80de3",
+  "deployed_health": {
+    "status": "ok",
+    "model_loaded": true,
+    "scikit_learn": "1.9.1",
+    "model_sha256": "cb1d83b80de3"
+  },
+  "tolerance": 0.001,
+  "predictions": [
+    {
+      "label": "illustrative",
+      "fixture": 18.465,
+      "local": 18.465,
+      "deployed": 18.465,
+      "status": 200,
+      "match": true
+    },
+    {
+      "label": "NPA 138 latest inputs",
+      "fixture": 66.401,
+      "local": 66.401,
+      "deployed": 66.401,
+      "status": 200,
+      "match": true
+    },
+    {
+      "label": "NPA 21 latest inputs",
+      "fixture": 32.863,
+      "local": 32.863,
+      "deployed": 32.863,
+      "status": 200,
+      "match": true
+    },
+    {
+      "label": "NPA 392 latest inputs",
+      "fixture": 1.996,
+      "local": 1.996,
+      "deployed": 1.996,
+      "status": 200,
+      "match": true
+    },
+    {
+      "label": "NPA 315 latest inputs",
+      "fixture": 16.68,
+      "local": 16.68,
+      "deployed": 16.68,
+      "status": 200,
+      "match": true
+    }
+  ],
+  "checks": {
+    "health_200": true,
+    "deployed_model_sha_matches_local": true,
+    "deployed_sklearn_matches_artifact": true,
+    "pipeline_info_200": true,
+    "all_predictions_match": true,
+    "negative_count_422": true,
+    "extra_field_422": true,
+    "unknown_npa_404": true
+  },
+  "passed": true
+}
