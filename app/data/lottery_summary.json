@@ -1,0 +1,11 @@
+{
+ "n_npa": 453,
+ "n_recipes": 84,
+ "tier_size": 45,
+ "ever_worst10": 121,
+ "always_worst10": 6,
+ "flip_flop": 115,
+ "median_rank_range": 118.0,
+ "recipe_spearman_vs_2025_min": 0.7995803976283709,
+ "recipe_spearman_vs_2025_max": 0.9472946840482255
+}

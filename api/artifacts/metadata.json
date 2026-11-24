@@ -1,0 +1,71 @@
+{
+  "model": "Poisson regression on log-rate (M2 in D3), sklearn Pipeline",
+  "steps": [
+    "features",
+    "scale",
+    "glm"
+  ],
+  "custom_transformer": "safety_pipeline.CrimeFeatureBuilder",
+  "target": "reliably-reported crime rate per 1,000 residents in year t+1 (motor vehicle theft, burglary, robbery)",
+  "inputs": [
+    "reliable",
+    "property_other",
+    "violent_other",
+    "discretionary",
+    "population",
+    "jobs",
+    "area_acres",
+    "reliable_prev"
+  ],
+  "training": {
+    "n_rows": 2718,
+    "n_npas": 453,
+    "feature_years": [
+      2018,
+      2023
+    ],
+    "target_years": [
+      2019,
+      2024
+    ],
+    "final_test_target_year_reserved": 2025
+  },
+  "latest_feature_year": 2025,
+  "coefficients_standardised": {
+    "log1p_reliable": 0.7776,
+    "log1p_property_other": 0.5583,
+    "log1p_violent_other": 0.3662,
+    "log1p_discretionary": -0.1946,
+    "discretionary_share": 0.1428,
+    "log_population": -0.5082,
+    "log_jobs_per_resident": -0.0102,
+    "log_density": 0.0057,
+    "log1p_reliable_rate_prev": 0.0785
+  },
+  "intercept": 1.4359,
+  "parity_vs_d3_statsmodels": {
+    "fold_target_year": 2024,
+    "n": 453,
+    "max_abs_diff_rate": 0.006517785450938618,
+    "spearman": 0.9999997418222856,
+    "mae_sklearn": 3.6011487916051648,
+    "mae_statsmodels": 3.6011166009335085
+  },
+  "d3_reference_metrics": "d3_modeling/results/metrics_cv.csv (selection) and the D3 note",
+  "library_versions": {
+    "python": "3.12.12",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "trained_at_utc": "2026-11-23T01:18:42+00:00",
+  "artifact_sha256": "cb1d83b80de3dacec363822b5e5a23c2571a687d9735d1ab8190e55612b68d8b",
+  "limitations": [
+    "Predicts reported crime, not actual crime or safety.",
+    "NPA population and jobs are single QOL snapshots, not year-specific.",
+    "NPAs with population under 500 are excluded; inputs below 500 are rejected.",
+    "Prediction does not establish causation."
+  ]
+}

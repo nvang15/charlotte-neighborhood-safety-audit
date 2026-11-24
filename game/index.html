@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spin Doctor</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header><h1>Spin Doctor</h1><span class="sub">Same data, different story. Can you make a neighborhood look safe, or dangerous, without changing a single number?</span></header>
+<main>
+  <div id="stage"><div id="game"></div><div id="toast"></div></div>
+  <aside id="panel">
+    <section id="case"><div id="caseTitle">Walk to a case file and press E</div><div id="goal"></div>
+      <div id="visual"></div><div id="credit"></div></section>
+    <section id="board"><div id="headline"></div><div id="meter"><div id="meterFill"></div></div><div id="meterLabel"></div></section>
+    <section id="levers"></section>
+  </aside>
+</main>
+<div id="reveal" hidden><div class="card" id="revealCard"></div></div>
+<footer>Real Charlotte-Mecklenburg Police Department report counts, aggregated by Neighborhood Profile Area (NPA), 2017&ndash;2025. NPAs do not match everyday neighborhood boundaries. This game shows how numbers can be framed; it does not say any neighborhood is safe or dangerous, and reported counts are not a measure of all crime.
+<span id="credits"></span></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js"></script>
+<script src="game.js"></script>
+</body></html>

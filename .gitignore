@@ -30,3 +30,13 @@ DTSC 3602 Project.pdf
 Thumbs.db
 .vscode/
 .idea/
+
+.venv/
+d3_modeling/data/_cache_*.csv
+__pycache__/
+
+# Local Google Maps key for the door game
+game/config.js
+
+# API test cache
+.pytest_cache/

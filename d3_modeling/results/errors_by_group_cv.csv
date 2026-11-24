@@ -1,0 +1,37 @@
+group,level,model,n,mae_rate,mean_error_pred_minus_actual
+pop_tercile,small,B0 Naive raw count,608,8.72709809067791,-8.493586071253732
+pop_tercile,small,M1 Empirical-Bayes rate,608,5.1699239943713735,-2.0118558234686637
+pop_tercile,small,M2 Poisson GLM,608,4.562079656305924,-1.6176936195331089
+pop_tercile,small,M3 Gradient boosting (Poisson),608,4.616915911015839,-2.2643062571436556
+pop_tercile,mid,B0 Naive raw count,600,3.70635409557444,-2.7968587535768026
+pop_tercile,mid,M1 Empirical-Bayes rate,600,3.3383242720081605,-0.6991781055408054
+pop_tercile,mid,M2 Poisson GLM,600,2.9502145083816926,-1.0124052686499942
+pop_tercile,mid,M3 Gradient boosting (Poisson),600,3.1630212510240745,-1.1300656376006426
+pop_tercile,large,B0 Naive raw count,604,4.029589162266328,1.5200881481718311
+pop_tercile,large,M1 Empirical-Bayes rate,604,2.48816426118568,-0.7784097624415829
+pop_tercile,large,M2 Poisson GLM,604,2.4276839354568915,-1.1251980392405543
+pop_tercile,large,M3 Gradient boosting (Poisson),604,2.60294409742361,-1.076817572448484
+jobs_tercile,residential,B0 Naive raw count,604,3.390563032783309,-2.166450852653104
+jobs_tercile,residential,M1 Empirical-Bayes rate,604,2.6945843551987214,-0.3786027019508328
+jobs_tercile,residential,M2 Poisson GLM,604,2.5672198151943717,-0.9759408452337
+jobs_tercile,residential,M3 Gradient boosting (Poisson),604,2.665320416014714,-0.887235768164551
+jobs_tercile,mixed,B0 Naive raw count,604,4.491191720725468,-1.904976441485152
+jobs_tercile,mixed,M1 Empirical-Bayes rate,604,3.1547237968887405,-0.61883620690521
+jobs_tercile,mixed,M2 Poisson GLM,604,2.9747203762289782,-0.8406338533850138
+jobs_tercile,mixed,M3 Gradient boosting (Poisson),604,3.0143653543013453,-1.1676667250563204
+jobs_tercile,job-heavy,B0 Naive raw count,604,8.614536555242374,-5.73665605349844
+jobs_tercile,job-heavy,M1 Empirical-Bayes rate,604,5.159234174963601,-2.5006980125150617
+jobs_tercile,job-heavy,M2 Poisson GLM,604,4.408712512349796,-1.942730760929997
+jobs_tercile,job-heavy,M3 Gradient boosting (Poisson),604,4.712823930604363,-2.423798501253653
+income_tercile,low,B0 Naive raw count,588,8.523881550352625,-6.02747068410912
+income_tercile,low,M1 Empirical-Bayes rate,588,5.428210356781442,-2.121983499889674
+income_tercile,low,M2 Poisson GLM,588,4.975301224909311,-1.6769518721334027
+income_tercile,low,M3 Gradient boosting (Poisson),588,5.321222291323563,-2.076906687210989
+income_tercile,mid,B0 Naive raw count,588,5.324063098432733,-3.5330601114246862
+income_tercile,mid,M1 Empirical-Bayes rate,588,3.856533351068612,-1.7347007360405349
+income_tercile,mid,M2 Poisson GLM,588,3.573148398605027,-1.9596101585660701
+income_tercile,mid,M3 Gradient boosting (Poisson),588,3.69805866582071,-2.0346911186081993
+income_tercile,high,B0 Naive raw count,588,2.2950433826350762,0.26354951068117183
+income_tercile,high,M1 Empirical-Bayes rate,588,1.5734625354441847,0.405197183048429
+income_tercile,high,M2 Poisson GLM,588,1.2550833447897618,-0.16300208783270403
+income_tercile,high,M3 Gradient boosting (Poisson),588,1.2414468307884898,-0.28866500236680787
